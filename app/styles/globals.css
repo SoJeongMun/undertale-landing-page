@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@font-face {
+  font-family: 'The-Impostor';
+  src: url(../../public/fonts/The-Impostor.woff);
+}
+@font-face {
+  font-family: 'Core-Gothic-E4';
+  src: url(../../public/fonts/CoreGTE4.woff);
+}
+@font-face {
+  font-family: 'Core-Gothic-E7';
+  src: url(../../public/fonts/CoreGTE6.woff);
+}
+@font-face {
+  font-family: 'Core-Gothic-E9';
+  src: url(../../public/fonts/CoreGTE9.woff);
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #e1e1e1;
+}

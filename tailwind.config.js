@@ -9,8 +9,19 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      fontFamily: {
+        sans: 'Core-Gothic-E4',
+        bold: 'Core-Gothic-E7',
+        extraBold: 'Core-Gothic-E9',
+        en: 'The-Impostor',
+      },
+      colors: {
+        point: '#ff5252',
+      },
+      transitionProperty: {
+        margin: 'margin',
       },
     },
   },
