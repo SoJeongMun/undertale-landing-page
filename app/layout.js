@@ -1,3 +1,4 @@
+import Recoil from './components/Recoil'
 import Footer from './components/ui/Footer'
 import Header from './components/ui/Header'
 import './styles/globals.css'
@@ -14,9 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <Recoil>
+          <Header />
+          {children}
+          <Footer />
+        </Recoil>
       </body>
     </html>
   )
