@@ -26,8 +26,8 @@ export default function Download() {
   }
 
   return (
-    <div className="h-screen w-screen flex-col justify-center items-center">
-      <h1 className="font-en text-4xl text-center py-20">Download</h1>
+    <div className="min-h-screen w-screen flex-col justify-center items-center pb-20">
+      <h1 className="section-title">Download</h1>
       <div className="flex w-4/5 justify-evenly mx-auto">
         <div className="flex flex-col w-5/12">
           <div className="flex justify-center items-center gap-5 mb-6">
