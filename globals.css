@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@font-face {
+  font-family: 'The-Impostor';
+  src: url(../../public/fonts/The-Impostor.woff);
+}
+@font-face {
+  font-family: 'Core-Gothic-E4';
+  src: url(../../public/fonts/CoreGTE4.woff);
+}
+@font-face {
+  font-family: 'Core-Gothic-E7';
+  src: url(../../public/fonts/CoreGTE6.woff);
+}
+@font-face {
+  font-family: 'Core-Gothic-E9';
+  src: url(../../public/fonts/CoreGTE9.woff);
+}
+
+.letter-spacing{
+  letter-spacing: -1px;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #e1e1e1;
+}
+
+
+.nav {
+  background-image: url('../../public/images/common/background-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.section-title {
+  @apply font-en text-4xl text-center py-20;
+}
+
+.video-wrap{
+  max-height: calc(100vh - 45%);
+  height: 100%;
+}
+
+.card:first-child,
+.card:last-child{
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.card-img{
+  width: 100%;
+  height: 100%;
+}
